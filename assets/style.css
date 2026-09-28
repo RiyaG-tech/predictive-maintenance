@@ -1,0 +1,131 @@
+/* Industrial Predictive Maintenance Dashboard Styling */
+
+/* Main Header */
+.main-header {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
+    border-left: 6px solid #3b82f6;
+    margin-bottom: 1.8rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.main-header h1 {
+    color: #f8fafc;
+    font-size: 1.85rem;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.main-header p {
+    color: #94a3b8;
+    font-size: 0.95rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0;
+}
+
+/* Industrial KPI Card */
+.kpi-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.kpi-title {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    color: #64748b;
+    margin-bottom: 0.35rem;
+}
+
+.kpi-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.2;
+}
+
+.kpi-subtitle {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-top: 0.3rem;
+}
+
+/* Risk Badges */
+.badge-low {
+    background-color: #dcfce7;
+    color: #15803d;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: inline-block;
+    border: 1px solid #bbf7d0;
+}
+
+.badge-med {
+    background-color: #fef9c3;
+    color: #a16207;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: inline-block;
+    border: 1px solid #fef08a;
+}
+
+.badge-high {
+    background-color: #fee2e2;
+    color: #b91c1c;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    display: inline-block;
+    border: 1px solid #fecaca;
+}
+
+/* Action Cards */
+.action-card {
+    background-color: #f8fafc;
+    border-left: 4px solid #3b82f6;
+    padding: 0.9rem 1.1rem;
+    border-radius: 0 8px 8px 0;
+    margin-bottom: 0.75rem;
+    border-top: 1px solid #e2e8f0;
+    border-right: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.action-title {
+    font-weight: 600;
+    color: #1e293b;
+    font-size: 0.95rem;
+}
+
+.action-desc {
+    color: #475569;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
+/* Section Header */
+.section-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 0.4rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #1e293b;
+}
